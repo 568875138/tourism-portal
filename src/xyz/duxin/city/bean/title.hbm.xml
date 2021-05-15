@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="xyz.duxin.city.bean.title" table="title">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="classify"></property>
+		<property name="title"></property>
+		<property name="titleimg"></property>
+		<property name="adescribe"></property>
+		<property name="tags"></property>
+		<property name="datime"></property>
+		<property name="readc"></property>
+		<property name="author"></property>
+		<property name="content"></property>
+	</class>
+</hibernate-mapping>
